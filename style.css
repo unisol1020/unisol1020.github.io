@@ -136,6 +136,10 @@ h5 {
     display: flex;
 }
 
+.info table {
+    margin-bottom: auto;
+}
+
 .header .info table:not(:last-child) {
     margin-right: 60px;
 }
@@ -254,6 +258,16 @@ h5 {
     color: var(--muted-text-color);
 }
 
+.flex {
+    display: flex;
+}
+
+.pdf-icon {
+    color: rgb(20, 110, 190);
+    cursor: pointer;
+    margin-left: auto;
+}
+
 @media (max-width: 600px) {
     .header .info table {
         margin: 0;
@@ -287,5 +301,15 @@ h5 {
     .column:last-child {
         margin-top: 32px;
         margin-left: 0;
+    }
+
+    .pdf-icon {
+        margin-left: 1rem;
+    }
+}
+
+@media print {
+    .pdf-icon {
+        display: none !important;
     }
 }
