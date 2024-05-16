@@ -49,7 +49,7 @@ body {
     display: flex;
     max-width: var(--max-width);
     margin: auto;
-    padding: 40px 60px;
+    padding: 30px 60px;
 }
 
 .column {
@@ -260,6 +260,11 @@ h5 {
 
 .flex {
     display: flex;
+}
+
+.name-flex {
+    display: flex;
+    align-items: center;
 }
 
 .pdf-icon {
